@@ -1,0 +1,823 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.side{
+    width: 25%;
+    height: 100vh;
+    background-color: #010021;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.pp{
+    width: 90px;
+    height: 90px;
+    background-image: url('image/pp.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 7px solid rgb(46, 44, 60);
+}
+
+.nama{
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    font-size: 17px;
+}
+
+
+
+.btn{
+    position: absolute;
+    margin-top: 170px;
+
+}
+
+.btn button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+}
+
+.btn button:first-child{
+    background-image: url('image/twitter\ \(1\).png');
+    background-position: center;
+    background-size: 42px;
+}
+
+.btn button:nth-child(2){
+    background-image: url('image/facebook\ \(1\).png');
+    background-position: center;
+    background-size: 42px;
+}
+.btn button:nth-child(3){
+    background-image: url('image/instagram.png');
+    background-position: center;
+    background-size: 42px;
+}
+.btn button:nth-child(4){
+    background-image: url('image/discord.png');
+    background-position: center;
+    background-size: 40px;
+}
+.btn button:nth-child(5){
+    background-image: url('image/linkedin.png');
+    background-position: center;
+    background-size: 40px;
+}
+
+.nav-link{
+    top: 230px; 
+    left: 0;
+    position: absolute;
+    width: 320px;
+    height: 280px;
+}
+.img{
+    background-image: url('image/building.png');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    height: 56px;
+}
+
+.home p{
+
+    color: rgb(184, 184, 184);
+    margin-left: 20px;
+}
+
+.nav-home{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: none;
+    border: none;
+}
+
+.home button:hover{
+    cursor: pointer;
+    
+}
+.home p:hover{
+    color: white;
+}
+
+
+.about{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    height: 56px;
+}
+
+.about p{
+
+    color: rgb(184, 184, 184);
+    margin-left: 20px;
+}
+
+.img1{
+    background-image: url('image/person.png');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.about button:hover{
+    cursor: pointer;
+    
+}
+.about p:hover{
+    color: white;
+}
+
+
+.img3{
+    background-image: url('image/suitcase.png');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url('image/wrench.png');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    background-image: url('image/letter.png');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.foot{
+    color: white;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.foot a{
+    color: blue;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+
+.main{
+    margin-left: 25%;
+    width: 75%;
+    height: 100vh;
+    background-image: url('image/bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    position: fixed;
+    overflow-y: auto;
+
+}
+
+.nama1{
+    margin-left: 200px;
+}
+
+
+.nama1 p{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+.nama1 h1{
+    color: white;
+    font-size: 60px;
+}
+
+.nama1 .efek{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.about-me{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+}
+
+.container h1{
+    border-bottom: 3px solid #149DDD;
+    width: 50px;
+    color: #173B6C;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about-me p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #494A4B;
+    letter-spacing: .5px;
+}
+
+.profil img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.profil{
+    display: flex;
+    
+}
+
+.ket p{
+    font-style: italic  ;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.ket{
+    color: #173B6C;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.info1{
+    display: flex;
+}
+
+.info p{
+    font-style: normal;
+    font-weight: bold;
+    
+}
+.info2  p{
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.info p:nth-child(2){
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.info2 p:nth-child(2){
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.info2{
+    margin-left: 40px;
+}
+
+.info{
+    width: 250px;
+}
+
+
+.lahir{
+    display: flex;
+}
+
+.web{
+    display: flex;
+}
+
+.phone{
+    display: flex;
+}
+
+.city{
+    display: flex;
+}
+
+.pee p{
+    font-style: normal;
+}
+
+.skill{
+    background-color: #F5F8FD;
+    width: 100%;
+    height:55vh;
+    flex-direction: column;
+    position: absolute;
+    top: 200%;
+}
+
+
+.skill p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #494A4B;
+    letter-spacing: .5px;
+}
+
+.html p{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.html{
+    display: flex;
+}
+
+.html p:nth-child(2){
+    margin-left: 350px;
+    font-size: 12px;
+
+}
+
+.nilai{
+
+    margin-left: 20px;
+    width: 400px;
+    height: 10px;
+    background-color: #DCE8F8;
+
+}
+
+.isi{
+    width: 90%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+.css{
+    width: 80%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+.js{
+    width: 45%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+
+.sejajar{
+    display: flex;
+}
+
+.skills1{
+    margin-left: 30px;
+}
+
+
+
+.ilustrator{
+    display: flex;
+}
+
+.ilustrator p:nth-child(2){
+    margin-left: 310px;
+    font-size: 12px;
+
+}
+
+.ilustrator p{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.Ilus{
+    width: 80%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+.java{
+    width: 50%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+.php{
+    width: 60%;
+    height: 10px;
+    background-color: #149DDD;
+}
+
+.portofolio{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    background-color: white;
+    top: 255%;
+
+}
+
+.portofolio p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #494A4B;
+    letter-spacing: .5px;
+}
+
+.service{
+    position: absolute;
+    top: 399%;
+    height: 100vh;
+    background-color: #F5F8FD;
+}
+
+.service p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #494A4B;
+    letter-spacing: .5px;
+}
+
+.isiservice{
+    display: flex;
+}
+
+.ser-1,
+.ser-2,
+.ser-3{
+    display: flex;
+    width: 33%;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ser-1:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.ser-2:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.ser-3:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tulis p:first-child{
+    font-weight: bold;
+}
+
+.tulis p:nth-child(2){
+    letter-spacing: .5px;
+    font-size: 13px;
+}
+
+.tas{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.daltas{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid blue;
+}
+
+
+.daltas1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas1 img{
+    width: 30px;
+    height: 30px;
+}
+.daltas2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas2 img{
+    width: 30px;
+    height: 30px;
+}
+.daltas3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas3 img{
+    width: 30px;
+    height: 30px;
+} 
+
+.daltas4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas4 img{
+    width: 30px;
+    height: 30px;
+}
+
+.daltas5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas5 img{
+    width: 30px;
+    height: 30px;
+}
+
+.daltas6{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #0E7AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daltas6 img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.container p{
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.porto{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cate{
+    width: 30%;
+    height: 7vh;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+}
+
+
+
+.cate button:first-child{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-left: 20px;
+    color: #149DDD;
+}
+
+.cate button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-left: 20px;
+    color: black;
+}
+
+
+
+.content button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.box{
+    
+    width: 250px;
+    height: 250px;
+    background-image: url('image/squad.png');
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box1{
+  
+    width: 250px;
+    height: 250px;
+    background-image: url('image/rel.jpg');
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box2{
+    
+    width: 250px;
+    height: 250px;
+    background-image: url('image/WhatsApp\ Image\ 2022-10-25\ at\ 21.27.22.jpg');
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box3{
+   
+    width: 250px;
+    height: 250px;
+    background-image: url('image/rel.jpg');
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box4{
+   
+    width: 250px;
+    height: 250px;
+    background-image: url('image/rel.jpg');
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box5{
+    width: 250px;
+    height: 250px;
+    background-image: url('image/rel.jpg');
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.boxer{
+    
+    height: 100vh;
+    background-color: wheat;
+    position: absolute;
+    top: 500%;
+}
+
+.boxs{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+@media (max-width: 758px) {
+
+    *{
+        overflow: hidden;
+    }
+    .side{
+        display: none;
+    }
+    .main{
+        margin-left: auto;
+    }
+    .nama1{
+        margin-left: 20px;
+
+    }
+
+
+    .container h1{
+        width: 50%;
+    }
+
+    .about-me{
+        top: 80%;
+        height: 140vh;
+        
+    }
+
+    .profil img{
+        display: none;
+    }
+
+    .ket{
+        margin-left: 10px;
+    }
+
+    .info1{
+        flex-direction: column;
+    }
+
+    .info2{
+        margin-left: 0px;
+    }
+
+    .skill{
+        top: 215%;
+        height: 100vh;
+    }
+
+    .portofolio{
+        top: 300%;
+    }
+
+    .sejajar{
+        flex-direction: column ;
+        width: 100%;
+    }
+
+    .skills1{
+        margin-left: 0px;
+        
+    }
+
+
+}
